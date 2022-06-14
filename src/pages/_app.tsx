@@ -4,7 +4,8 @@ import { useRef } from 'react';
 import { LocomotiveScrollProvider as RLSProvider } from 'react-locomotive-scroll';
 import { motion } from 'framer-motion';
 import '/public/styles.css';
-import '../styles/globals.css';
+import '../styles/main/globals.css';
+
 
 function MyApp({ Component, pageProps, router }: AppProps) {
   const { asPath } = useRouter();
