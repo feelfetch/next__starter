@@ -1,0 +1,35 @@
+{
+  "name": "wrdlss_next_locomotion",
+  "private": true,
+  "scripts": {
+    "dev": "next dev && gulp default",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "gulp": "gulp scss"
+  },
+  "dependencies": {
+    "browser-sync": "^2.27.10",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^4.0.1",
+    "gulp-dart-sass": "^1.0.2",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "locomotive-scroll": "^4.1.3",
+    "next": "12.0.7",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-locomotive-scroll": "^0.2.0",
+    "sass": "^1.52.3",
+    "tachyons-sass": "^4.9.5"
+  },
+  "devDependencies": {
+    "@types/node": "17.0.5",
+    "@types/react": "17.0.38",
+    "eslint": "8.5.0",
+    "eslint-config-next": "12.0.7",
+    "typescript": "4.5.4"
+  }
+}
