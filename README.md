@@ -1,6 +1,6 @@
 ## 🫥 Next Starter
 
-nextjs, sass, gulp, tachyons, locomotive scroll.
+nextjs, typescript, sass, gulp, tachyons, framer motion, locomotive scroll.
 
 ## 📝 License
 

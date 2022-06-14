@@ -9,7 +9,9 @@
     "gulp": "gulp scss"
   },
   "dependencies": {
+    "@vercel/node": "^2.1.0",
     "browser-sync": "^2.27.10",
+    "framer-motion": "^6.3.11",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^8.0.0",
     "gulp-concat": "^2.6.1",
@@ -17,12 +19,16 @@
     "gulp-dart-sass": "^1.0.2",
     "gulp-sass": "^5.1.0",
     "gulp-sourcemaps": "^3.0.0",
+    "isomorphic-unfetch": "^3.1.0",
     "locomotive-scroll": "^4.1.3",
     "next": "12.0.7",
+    "querystring": "^0.2.1",
     "react": "17.0.2",
     "react-dom": "17.0.2",
+    "react-icons": "^4.4.0",
     "react-locomotive-scroll": "^0.2.0",
     "sass": "^1.52.3",
+    "swr": "^1.3.0",
     "tachyons-sass": "^4.9.5"
   },
   "devDependencies": {

@@ -2,10 +2,11 @@ import { useRouter } from 'next/router';
 import type { AppProps } from 'next/app';
 import { useRef } from 'react';
 import { LocomotiveScrollProvider as RLSProvider } from 'react-locomotive-scroll';
+import { motion } from 'framer-motion';
 import '/public/styles.css';
 import '../styles/globals.css';
 
-function MyApp({ Component, pageProps }: AppProps) {
+function MyApp({ Component, pageProps, router }: AppProps) {
   const { asPath } = useRouter();
   const containerRef = useRef(null);
   return (
@@ -31,7 +32,22 @@ function MyApp({ Component, pageProps }: AppProps) {
       containerRef={containerRef}
     >
       <div data-scroll-container ref={containerRef}>
-        <Component {...pageProps} />
+        <motion.div
+        key={router.route}
+        initial="initial"
+        transition={{ duration: 1.5, delay: 0.3 }}
+        animate="animate"
+        variants={{
+          initial: {
+            opacity: 0,
+          },
+          animate: {
+            opacity: 1,
+          },
+        }}
+        >
+          <Component {...pageProps} />
+        </motion.div>
       </div>
     </RLSProvider>
   );
