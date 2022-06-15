@@ -9,6 +9,7 @@
     "gulp": "gulp scss"
   },
   "dependencies": {
+    "@sanity/cli": "^2.30.0",
     "@vercel/node": "^2.1.0",
     "browser-sync": "^2.27.10",
     "framer-motion": "^6.3.11",

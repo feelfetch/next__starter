@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useLocomotiveScroll } from 'react-locomotive-scroll';
 
-import styles from '../styles/main/Home.module.css';
+import styles from '../styles/main/main.module.css';
 
 const About: NextPage = () => {
 
